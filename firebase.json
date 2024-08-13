@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "weatherapp-ff862",
+          "appId": "1:298872452709:android:72634e92cab735a6f3788c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "weatherapp-ff862",
+          "configurations": {
+            "android": "1:298872452709:android:72634e92cab735a6f3788c",
+            "ios": "1:298872452709:ios:7da3db70fd89dd40f3788c"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "functions": {
+      "port": 5001
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}
