@@ -15,6 +15,7 @@ The **Flutter Weather App** is a simple and elegant weather application that pro
 - **Custom Animations**: Weather conditions are displayed with custom animations that match the weather type.
 - **User Authentication**: handle user login and sign uo using firebase authintication
 - **Reset Password**: user can reset password via email
+- **encrypt user password**: user password are encrypted before sa
 
 
 ## Screenshots
@@ -42,7 +43,14 @@ To run this project locally, follow these steps:
     String appKey = {your api key};
     ```
 
-4. **Run the app**:
+4. **Add your fire base**:
+- add the files
+
+      /lib/firebase_options.dart
+
+      /android/app/google-services.json
+
+5. **Run the app**:
     ```bash
     flutter run
     ```
